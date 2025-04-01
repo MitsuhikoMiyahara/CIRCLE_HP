@@ -1,0 +1,29 @@
+h2 { 
+    /* background-color: black;                背景色 */
+    font-size:28px;
+    color:darkgreen;                        /*文字の余白*/
+    text-align: center;
+}
+
+#note{
+    font-size:12px;
+    color:red;
+    text-decoration:underline;
+}
+
+#memo{
+    font-size:18px;
+    color:red;
+    font-weight: bold;
+    line-height: 2.5;
+}
+
+p{
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
