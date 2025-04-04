@@ -1,8 +1,18 @@
-h2 { 
-    /* background-color: black;                背景色 */
+h1 {
+    width: 800px; 
+    background-color:#EEEECC;
+    color: black;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h2 {
     font-size:28px;
-    color:darkgreen;                        /*文字の余白*/
+    color:black;
     text-align: center;
+    text-decoration: underline;
+    padding: 15px;
+    margin: 0 auto;
 }
 
 #note{
@@ -13,10 +23,11 @@ h2 {
 
 #memo{
     font-size:18px;
-    color:red;
     font-weight: bold;
     line-height: 2.5;
 }
+
+
 
 p{
     font-family: serif;
@@ -25,5 +36,94 @@ p{
 }
 
 body{
+    text-align: center;
+    color: black;
+    background-image: url("gym1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+}
+
+#soma{
+    background-color: #f96;
+}
+
+#card{
+    width: 500px;
+    background-color: #EEEECC;
+    color: black;
+    border:4px solid;
+    /* border-color: #FF9933; */
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+mark{
+    background-color: white;
+}
+
+#note2{
+    font-size:12px;
+}
+
+.borderimg {
+    border: 3px solid #333;
+    border-radius: 15px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #333;
+    border-radius: 15px;
+    transition: opacity 0.3s ease; /* 画像の透明度変化をスムーズに */
+}
+
+.text-overlay {
+    font-family: serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* テキストを画像の中央に配置 */
+    color: black;
+    font-size: 16px;
+    opacity: 0; /* 初期状態ではテキストを隠す */
+    transition: opacity 0.1s ease; /* テキストの表示をスムーズに */
+}
+
+.image-container:hover img {
+    opacity: 0.5; /* ホバー時に画像を半透明にする */
+}
+
+.image-container:hover .text-overlay {
+    opacity: 1; /* ホバー時にテキストを表示 */
+}
+
+table {
+    width: 600px;
+    margin: 20px auto;
+    border: 3px solid black; /* テーブル全体の枠線 */
+    border-collapse: collapse; /* セルの枠線を重ねない */
+    font-family: serif;
+    font-weight: bold;
+}
+
+th {
+    padding: 15px;
+    border: 1px solid #EEEECC; /* ヘッダーセルの枠線 */
+    background-color: #EEEECC;
+    text-align: center;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid #EEEECC; /* データセルの枠線 */
     text-align: center;
 }
