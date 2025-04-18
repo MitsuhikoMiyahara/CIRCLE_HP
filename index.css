@@ -107,7 +107,7 @@ mark{
 }
 
 table {
-    width: 600px;
+    width: 700px;
     margin: 20px auto;
     border: 3px solid black; /* テーブル全体の枠線 */
     border-collapse: collapse; /* セルの枠線を重ねない */
